@@ -18,14 +18,16 @@ Full documentation can be found on [the wiki](https://github.com/rucool/cool-gli
 # Installation
 
 1. Clone the repo
+   
     > clone https://github.com/rucool/cool-gliders.git
 
-2. Create the conda environment
+3. Create the conda environment
+   
     > conda env create -f environment.yml
 
-3. Modify the path(s) in [env_vars.sh](https://github.com/rucool/cool-gliders/blob/main/env_vars.sh) and place it in:
+5. Modify the path(s) in [env_vars.sh](https://github.com/rucool/cool-gliders/blob/main/env_vars.sh) and place it in:
 
-    ${HOME}/miniconda3/envs/gliders/etc/conda/activate.d
+    > ${HOME}/miniconda3/envs/gliders/etc/conda/activate.d
 
 This will store the current PYTHON_PATH paths in OLDPYTHON_PATH and add the paths in the file to PYTHON_PATH when the 
 environment is activated. You can create another env_vars.sh and place it in:
